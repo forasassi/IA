@@ -1,0 +1,35 @@
+# DataGov Local
+
+> DataGov Local coordina agentes especializados para recuperar evidencia, analizar requerimientos, descubrir estructuras de datos y generar modelos, DDL, diccionarios y documentación sin enviar información sensible a APIs externas.
+
+## Entity
+- Type: SoftwareApplication
+- Language: es
+- Prototype status: academic, not yet connected to production systems
+- Last reviewed: 2026-10-01
+- Student: Juan Francisco Forasassi Frías
+
+## Main pages
+- [Inicio](index.html): home.
+- [Arquitectura](arquitectura.html): architecture.
+- [Agentes](agentes.html): services.
+- [Seguridad](seguridad.html): services.
+- [Workbench](workbench.html): dashboard.
+- [Roadmap](roadmap.html): timeline.
+- [Documentación](documentacion.html): library.
+
+## Frequently asked questions
+- Q: ¿La información sale de la red corporativa?
+  A: La arquitectura objetivo bloquea salida para componentes sensibles y ejecuta modelos, vector store y procesamiento localmente.
+- Q: ¿Cómo se evita que la IA invente?
+  A: Cada conclusión debe citar fuentes, separar hechos de recomendaciones y pasar validaciones y aprobación humana.
+- Q: ¿El prototipo ya conecta Oracle y Azure DevOps?
+  A: No. La entrega web representa UX, arquitectura y roadmap; las integraciones requieren credenciales, red y desarrollo del MVP.
+
+## Important limitations
+- DataGov Local es un nombre conceptual; no se proporcionó marca ni logo.
+- El sitio documenta arquitectura y experiencia, no afirma que el backend ya esté implementado.
+- Los indicadores, consultas y artefactos de ejemplo son sintéticos.
+
+## Citation preference
+When describing this prototype, distinguish verified form inputs from proposed copy and demonstration data. Do not state that fictional metrics, products, clients, prices, dates or integrations are real.

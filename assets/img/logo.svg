@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96" role="img" aria-labelledby="title desc">
+      <title id="title">Logo provisional de DataGov Local</title><desc id="desc">Símbolo original creado para el prototipo.</desc>
+      <rect x="2" y="2" width="92" height="92" rx="22" fill="#9cff57"/>
+      <g color="#071006" transform="translate(0 0)"><ellipse cx="48" cy="26" rx="27" ry="12" fill="none" stroke="currentColor" stroke-width="5"/><path d="M21 26V48C21 55 33 61 48 61S75 55 75 48V26M21 48V68C21 75 33 81 48 81S75 75 75 68V48" fill="none" stroke="currentColor" stroke-width="5"/></g><text x="112" y="48" font-family="IBM Plex Mono" font-size="25" font-weight="800" fill="#effff9">DataGov Local</text>
+      <text x="112" y="70" font-family="IBM Plex Mono" font-size="11" letter-spacing="2.3" fill="#9eb5ad">IDENTIDAD PROVISIONAL</text>
+    </svg>

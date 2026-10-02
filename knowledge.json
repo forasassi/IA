@@ -1,0 +1,73 @@
+{
+  "entity": {
+    "name": "DataGov Local",
+    "type": "SoftwareApplication",
+    "description": "Plataforma RAG agéntica on-premise para analizar políticas, requerimientos, Azure DevOps, documentación y metadatos Oracle.",
+    "directAnswer": "DataGov Local coordina agentes especializados para recuperar evidencia, analizar requerimientos, descubrir estructuras de datos y generar modelos, DDL, diccionarios y documentación sin enviar información sensible a APIs externas.",
+    "language": "es"
+  },
+  "sourceRecord": {
+    "student": "Juan Francisco Forasassi Frías",
+    "projectType": "aplicacion_movil",
+    "businessDescription": "Es una plataforma de **IA agéntica local especializada en Ingeniería y Gobierno de Datos**, diseñada para trabajar de forma segura dentro de la red corporativa. La solución analiza políticas, procedimientos, requerimientos, Azure DevOps, documentación y metadatos de bases de datos para ayudar a diseñar modelos de datos, generar SQL, diagramas, Excel, presentaciones y documentación técnica. Todo funciona con modelos de IA locales, manteniendo la información sensible dentro de la organización y ofreciendo trazabilidad sobre las fuentes y decisiones utilizadas.",
+    "technicalDetails": "Quiero construir una plataforma **RAG Agéntica 100% local/on-premise para Ingeniería y Gobierno de Datos**, sin enviar información a APIs externas.\n\nLa solución debe usar preferiblemente **Python + FastAPI + LangGraph + Ollama + Qdrant + Docling**, con integración a **Oracle 19c, Azure DevOps, archivos locales y Git**.\n\nDebe poder leer y analizar:\n- políticas;\n- procedimientos;\n- normativas;\n- solicitudes;\n- documentación;\n- backlog;\n- Epics, Features, HU y Tasks de Azure DevOps;\n- modelos de datos existentes;\n- metadatos de Oracle.\n\nQuiero un **Supervisor Agent** que coordine agentes especializados para:\n- RAG/Governance;\n- análisis de requerimientos;\n- descubrimiento de datos;\n- modelado conceptual, lógico y físico;\n- generación de SQL Oracle;\n- calidad de datos;\n- revisión de arquitectura;\n- generación de artefactos y diagramas.\n\nEl RAG debe ser **híbrido**, combinando embeddings, búsqueda lexical/BM25, filtros por metadata y reranking local.\n\nEl sistema debe generar localmente:\n- modelos ER;\n- diagramas de flujo;\n- diagramas de arquitectura;\n- linaje;\n- DDL Oracle 19c;\n- Excel;\n- PowerPoint;\n- Word/PDF;\n- Markdown;\n- imágenes/infografías mediante ComfyUI local.\n\nTodo resultado debe mantener trazabilidad hacia las fuentes utilizadas y diferenciar entre requerimientos, políticas, hechos, evidencia y recomendaciones de la IA.\n\nDebe incluir:\n- RBAC;\n- ACL documental;\n- auditoría;\n- aprobación humana para acciones críticas;\n- acceso Oracle preferiblemente read-only;\n- aislamiento mediante Docker;\n- bloqueo de salida a Internet para componentes sensibles;\n- secretos fuera del código;\n- versionamiento de modelos, SQL y diagramas mediante Git.\n\nQuiero usarlo desde **VS Code, CLI y una interfaz web interna**.\n\nCaso de uso esperado:\n\n“Analiza esta solicitud, revisa políticas y procedimientos, consulta Azure DevOps, busca estructuras similares en Oracle, diseña el modelo de datos, valida que cumpla los estándares y genera el DDL, ERD, diccionario Excel, documentación y presentación ejecutiva.”\n\nDiseña primero la arquitectura, componentes, agentes, seguridad, estructura del repositorio y roadmap. Luego implementa un MVP funcional por fases, comenzando por:\n\n**Ollama + Qdrant + Docling + FastAPI + LangGraph + RAG local + carga de documentos + generación de modelo ER y DDL Oracle.**\n\nNo simules funcionalidades. Todo lo implementado debe poder ejecutarse y probarse localmente."
+  },
+  "pages": [
+    {
+      "url": "index.html",
+      "name": "Inicio",
+      "purpose": "home"
+    },
+    {
+      "url": "arquitectura.html",
+      "name": "Arquitectura",
+      "purpose": "architecture"
+    },
+    {
+      "url": "agentes.html",
+      "name": "Agentes",
+      "purpose": "services"
+    },
+    {
+      "url": "seguridad.html",
+      "name": "Seguridad",
+      "purpose": "services"
+    },
+    {
+      "url": "workbench.html",
+      "name": "Workbench",
+      "purpose": "dashboard"
+    },
+    {
+      "url": "roadmap.html",
+      "name": "Roadmap",
+      "purpose": "timeline"
+    },
+    {
+      "url": "documentacion.html",
+      "name": "Documentación",
+      "purpose": "library"
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿La información sale de la red corporativa?",
+      "answer": "La arquitectura objetivo bloquea salida para componentes sensibles y ejecuta modelos, vector store y procesamiento localmente."
+    },
+    {
+      "question": "¿Cómo se evita que la IA invente?",
+      "answer": "Cada conclusión debe citar fuentes, separar hechos de recomendaciones y pasar validaciones y aprobación humana."
+    },
+    {
+      "question": "¿El prototipo ya conecta Oracle y Azure DevOps?",
+      "answer": "No. La entrega web representa UX, arquitectura y roadmap; las integraciones requieren credenciales, red y desarrollo del MVP."
+    }
+  ],
+  "assumptions": [
+    "DataGov Local es un nombre conceptual; no se proporcionó marca ni logo.",
+    "El sitio documenta arquitectura y experiencia, no afirma que el backend ya esté implementado.",
+    "Los indicadores, consultas y artefactos de ejemplo son sintéticos."
+  ],
+  "updated": "2026-10-01",
+  "prototype": true
+}

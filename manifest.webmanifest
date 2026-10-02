@@ -1,0 +1,17 @@
+{
+  "name": "DataGov Local",
+  "short_name": "DG",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#05070b",
+  "theme_color": "#9cff57",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
